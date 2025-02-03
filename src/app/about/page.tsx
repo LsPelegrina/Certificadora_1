@@ -11,6 +11,9 @@ import {
   XIcon,
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
+import portraitImage1 from '@/images/header1.jpg'
+import portraitImage2 from '@/images/header2.jpg'
+import portraitImage3 from '@/images/header3.jpg'
 
 function SocialLink({
   className,
@@ -49,8 +52,7 @@ function MailIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 
 export const metadata: Metadata = {
   title: 'About',
-  description:
-    'I’m Spencer Sharp. I live in New York City, where I design the future.',
+  description: 'Bons Fluidos',
 }
 
 export default function About() {
@@ -58,74 +60,113 @@ export default function About() {
     <Container className="mt-16 sm:mt-32">
       <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
         <div className="lg:pl-20">
-          <div className="h-100 w-100 mb-10">
+          <div className="mb-10 h-100 w-100">
             <Image
-              src={portraitImage}
+              src={portraitImage1}
               alt=""
-              className="aspect-square rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800  overflow-hidden hover:scale-110 transition-transform duration-300 ease-out"
+              className="aspect-square overflow-hidden rounded-2xl bg-zinc-100 object-cover transition-transform duration-300 ease-out hover:scale-110 dark:bg-zinc-800"
             />
           </div>
-          <div className="h-100 w-100 mb-10">
+          <div className="mb-10 h-100 w-100">
             <Image
-              src={portraitImage}
+              src={portraitImage2}
               alt=""
-              className="aspect-square rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800 overflow-hidden hover:scale-110 transition-transform duration-300 ease-out"
+              className="aspect-square overflow-hidden rounded-2xl bg-zinc-100 object-cover transition-transform duration-300 ease-out hover:scale-110 dark:bg-zinc-800"
             />
           </div>
-          <div className="h-100 w-100 mb-10">
+          <div className="mb-10 h-100 w-100">
             <Image
-              src={portraitImage}
+              src={portraitImage3}
               alt=""
-              className="aspect-square rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800 overflow-hidden hover:scale-110 transition-transform duration-300 ease-out"
+              className="aspect-square overflow-hidden rounded-2xl bg-zinc-100 object-cover transition-transform duration-300 ease-out hover:scale-110 dark:bg-zinc-800"
             />
           </div>
         </div>
         <div className="lg:order-first lg:row-span-2">
-        <h1 className="text-xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100">
-          O projeto <span className="text-pink-500 dark:text-pink-500">Bons Fluidos</span> da UTFPR-CP tem como objetivo levar dignidade para meninas que têm o direito à educação prejudicado por menstruarem.
-        </h1>
+          <h1 className="text-xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100">
+            O projeto{' '}
+            <span className="text-pink-500 dark:text-pink-500">
+              Bons Fluidos
+            </span>{' '}
+            da UTFPR-CP tem como objetivo levar dignidade para meninas que têm o
+            direito à educação prejudicado por menstruarem.
+          </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              I’ve loved making things for as long as I can remember, and wrote
-              my first program when I was 6 years old, just two weeks after my
-              mom brought home the brand new Macintosh LC 550 that I taught
-              myself to type on.
+              A menstruação não deveria ser um obstáculo para o direito à
+              educação. No entanto, para muitas meninas, a falta de acesso a
+              itens básicos de higiene menstrual se torna um fator que
+              compromete sua frequência escolar e, consequentemente, seu futuro.
+              O Projeto Bons Fluidos nasce com um propósito claro: garantir
+              dignidade para todas as alunas, promovendo acesso a absorventes,
+              informação e acolhimento.
             </p>
             <p>
-              The only thing I loved more than computers as a kid was space.
-              When I was 8, I climbed the 40-foot oak tree at the back of our
-              yard while wearing my older sister’s motorcycle helmet, counted
-              down from three, and jumped — hoping the tree was tall enough that
-              with just a bit of momentum I’d be able to get to orbit.
+              Infelizmente, a pobreza menstrual ainda é uma realidade que afasta
+              muitas meninas da escola. Sem acesso a absorventes, elas recorrem
+              a alternativas precárias e, muitas vezes, evitam comparecer às
+              aulas durante o período menstrual. Esse problema afeta diretamente
+              sua aprendizagem, autoestima e oportunidades futuras.
             </p>
             <p>
-              I spent the next few summers indoors working on a rocket design,
-              while I recovered from the multiple surgeries it took to fix my
-              badly broken legs. It took nine iterations, but when I was 15 I
-              sent my dad’s Blackberry into orbit and was able to transmit a
-              photo back down to our family computer from space.
+              O Bons Fluidos trabalha para que nenhuma menina precise escolher
+              entre estudar e menstruar. Nosso objetivo é:
             </p>
             <p>
-              Today, I’m the founder of Planetaria, where we’re working on
-              civilian space suits and manned shuttle kits you can assemble at
-              home so that the next generation of kids really <em>can</em> make
-              it to orbit — from the comfort of their own backyards.
+              <ul>
+                <li>
+                  - Distribuir absorventes e produtos de higiene íntima para
+                  estudantes em situação de vulnerabilidade.
+                </li>
+                <li>
+                  - Conscientizar sobre saúde menstrual, promovendo palestras e
+                  rodas de conversa para combater tabus e desinformação.
+                </li>
+                <li>
+                  - Criar um ambiente escolar mais acolhedor, onde a menstruação
+                  seja vista com naturalidade e respeito.
+                </li>
+              </ul>
             </p>
+            <p>
+              Como Fazemos Isso Acontecer? 
+            </p>
+            <p>
+            💜 Campanhas de arrecadação:
+              Mobilizamos doações de absorventes para distribuir gratuitamente
+              às alunas que precisam.
+            </p>
+            <p>
+            📚 Educação e conscientização: Realizamos
+              encontros, palestras e materiais informativos sobre saúde
+              menstrual e direitos femininos.
+            </p>
+            <p>
+            🤝 Parcerias solidárias: Unimos
+              forças com empresas, ONGs e voluntários para ampliar nosso impacto
+              e alcançar mais meninas.
+            </p>
+            <p>
+            Junte-se a Essa Causa!
+            </p>
+            <p>
+            Se você acredita que todas as meninas merecem estudar sem obstáculos, venha fazer parte do Bons Fluidos! Você pode contribuir doando absorventes, participando das ações educativas ou ajudando a espalhar essa mensagem.
+              </p>
+              <p>
+              🌱 Menstruar é natural. Ter dignidade é um direito. Vamos juntos garantir um futuro melhor para todas!
+              </p>
           </div>
         </div>
         <div className="lg:pl-20">
           <ul role="list">
             <SocialLink href="#" icon={XIcon}>
-            Siga no X
+              Siga no X
             </SocialLink>
             <SocialLink href="#" icon={InstagramIcon} className="mt-4">
-            Siga no Instagram
-            </SocialLink>
-            <SocialLink href="#" icon={GitHubIcon} className="mt-4">
-            Siga no GitHub
+              Siga no Instagram
             </SocialLink>
             <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
-            Siga no LinkedIn
+              Siga no LinkedIn
             </SocialLink>
             <SocialLink
               href="mailto:bonsfluidos@gmail.com"

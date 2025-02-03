@@ -3,49 +3,7 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoCosmos from '@/images/logos/cosmos.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
 
-const projects = [
-  {
-    name: 'Planetaria',
-    description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
-  },
-  {
-    name: 'Animaginary',
-    description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
-  },
-  {
-    name: 'HelioStream',
-    description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
-  },
-  {
-    name: 'cosmOS',
-    description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
-  },
-  {
-    name: 'OpenShuttle',
-    description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
-  },
-]
 
 function LinkIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -60,7 +18,7 @@ function LinkIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 
 export const metadata: Metadata = {
   title: 'Últimas notícias',
-  description: 'notícias mais recentos sobre o projeto',
+  description: 'Notícias mais recentes',
 }
 
 
@@ -68,90 +26,90 @@ export default function Projects() {
   return (
     <SimpleLayout
       title="Últimas notícias"
-      intro="notícias mais recentos sobre o projeto."
+      intro="Mantenha-se informada!"
     >
      <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
       <article className="flex flex-col items-start justify-between">
         <div className="relative w-full">
-          <img src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80" alt="" className="aspect-video w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"/>
+          <img src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/42295_43739F693E86ABFF-1.jpg?w=1220&h=674&crop=1&quality=85" alt="" className="aspect-video w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"/>
           <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
         </div>
         <div className="max-w-xl">
           <div className="mt-8 flex items-center gap-x-4 text-xs">
-            <time dateTime="2020-03-16" className="text-gray-500">Mar 16, 2020</time>
-            <a href="#" className="relative z-10 rounded-full px-3 py-1.5 font-medium text-pink-500 bg-pink-100 border-1 border-pink-200">Marketing</a>
+            <time dateTime="2020-03-16" className="text-gray-500">16 Mar, 2024</time>
+            <a href="#" className="relative z-10 rounded-full px-3 py-1.5 font-medium text-pink-500 bg-pink-100 border-1 border-pink-200">Governo</a>
           </div>
           <div className="group relative">
             <h3 className="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-pink-400 dark:text-white dark:group-hover:text-pink-300">
               <a href="#">
                 <span className="absolute inset-0"></span>
-                Boost your conversion rate
+                Governo lança programa de distribuição gratuita de absorventes pelo SUS 
               </a>
             </h3>
-            <p className="mt-5 line-clamp-3 text-sm/6 text-gray-600">Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.</p>
+            <p className="mt-5 line-clamp-3 text-sm/6 text-gray-600">De acordo com o Ministério da Saúde, cerca de 8 milhões de pessoas serão beneficiadas pela iniciativa que prevê investimento de R$ 418 milhões por ano </p>
           </div>
         </div>
       </article>
       <article className="flex flex-col items-start justify-between">
         <div className="relative w-full">
-          <img src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80" alt="" className="aspect-video w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"/>
+          <img src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/09/absorvente-interno.jpg?w=1220&h=674&crop=1&quality=85" alt="" className="aspect-video w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"/>
           <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
         </div>
         <div className="max-w-xl">
           <div className="mt-8 flex items-center gap-x-4 text-xs">
-            <time dateTime="2020-03-16" className="text-gray-500">Mar 16, 2020</time>
-            <a href="#" className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-pink-500 bg-pink-100 border-1 border-pink-200">Marketing</a>
+            <time dateTime="2020-03-16" className="text-gray-500">10 Mai, 2024</time>
+            <a href="#" className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-pink-500 bg-pink-100 border-1 border-pink-200">Saúde</a>
           </div>
           <div className="group relative">
             <h3 className="dark:text-white dark:group-hover:text-pink-300 mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-pink-400">
               <a href="#">
                 <span className="absolute inset-0"></span>
-                Boost your conversion rate
+                Metais tóxicos em absorventes internos: entenda evidências e recomendações 
               </a>
             </h3>
-            <p className="mt-5 line-clamp-3 text-sm/6 text-gray-600">Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.</p>
+            <p className="mt-5 line-clamp-3 text-sm/6 text-gray-600">Estudo da Universidade da Califórnia, nos EUA, identificou 16 tipos de metais, incluindo chumbo e arsênio, nesses produtos; mas especialistas pedem cautela e mais pesquisas.</p>
           </div>
         </div>
       </article>
       <article className="flex flex-col items-start justify-between">
         <div className="relative w-full">
-          <img src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80" alt="" className="aspect-video w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"/>
+          <img src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/03/WhatsApp-Image-2024-03-07-at-12.41.33.jpeg?w=1170&h=674&crop=1&quality=85" alt="" className="aspect-video w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"/>
           <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
         </div>
         <div className="max-w-xl">
           <div className="mt-8 flex items-center gap-x-4 text-xs">
-            <time dateTime="2020-03-16" className="text-gray-500">Mar 16, 2020</time>
-            <a href="#" className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-pink-500 bg-pink-100 border-1 border-pink-200">Marketing</a>
+            <time dateTime="2020-03-16" className="text-gray-500">6 Jun, 2024</time>
+            <a href="#" className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-pink-500 bg-pink-100 border-1 border-pink-200">Governo</a>
           </div>
           <div className="group relative">
             <h3 className="dark:text-white dark:group-hover:text-pink-300 mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-pink-400">
               <a href="#">
                 <span className="absolute inset-0"></span>
-                Boost your conversion rate
+                Licença menstrual: servidoras do DF podem se afastar do trabalho por até 3 dias 
               </a>
             </h3>
-            <p className="mt-5 line-clamp-3 text-sm/6 text-gray-600">Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.</p>
+            <p className="mt-5 line-clamp-3 text-sm/6 text-gray-600">Lei Complementar foi promulgada pela Câmera Legislativa na quarta-feira (6) Nesta quarta-feira (6), a Câmara Legislativa do Distrito Federal (CLDF)  </p>
           </div>
         </div>
       </article>
       <article className="flex flex-col items-start justify-between">
         <div className="relative w-full">
-          <img src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80" alt="" className="aspect-video w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"/>
+          <img src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/42295_43739F693E86ABFF-1.jpg?w=1220&h=674&crop=1&quality=85" alt="" className="aspect-video w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"/>
           <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
         </div>
         <div className="max-w-xl">
           <div className="mt-8 flex items-center gap-x-4 text-xs">
-            <time dateTime="2020-03-16" className="text-gray-500">Mar 16, 2020</time>
-            <a href="#" className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-pink-500 bg-pink-100 border-1 border-pink-200">Marketing</a>
+            <time dateTime="2020-03-16" className="text-gray-500">24 Out, 2024</time>
+            <a href="#" className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-pink-500 bg-pink-100 border-1 border-pink-200">Governo</a>
           </div>
           <div className="group relative">
             <h3 className="dark:text-white dark:group-hover:text-pink-300 mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-pink-400">
               <a href="#">
                 <span className="absolute inset-0"></span>
-                Boost your conversion rate
+                Dignidade menstrual: saiba como retirar absorventes gratuitamente pelo SUS 
               </a>
             </h3>
-            <p className="mt-5 line-clamp-3 text-sm/6 text-gray-600">Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.</p>
+            <p className="mt-5 line-clamp-3 text-sm/6 text-gray-600">A disponibilização é direcionada para pessoas com baixa renda ou em estado de vulnerabilidade social </p>
           </div>
         </div>
       </article>
