@@ -70,7 +70,7 @@ export default function Speaking() {
             title="Ciclo do Bem – Corrente de Solidariedade"
             description="Uma campanha inspirada no conceito de corrente do bem! Funciona assim: cada pessoa que doa um pacote de absorventes desafia mais três amigos a fazerem o mesmo. Para engajar ainda mais, quem participar pode postar uma foto ou vídeo com a hashtag #CicloDoBem, marcando o projeto."
             event="SysConf 2021"
-            cta="Watch video"
+            cta="Saiba mais"
           />
           </div>
            <Image
@@ -90,7 +90,7 @@ export default function Speaking() {
             title="Absorvendo Cultura – Evento Beneficente"
             description="Que tal unir arte, conhecimento e solidariedade? O Absorvendo Cultura seria um evento com apresentações musicais, teatro, dança e poesia, promovendo a reflexão sobre a dignidade menstrual. Para participar, basta doar um pacote de absorventes na entrada."
             event="SysConf 2021"
-            cta="Watch video"
+            cta="Saiba mais"
           />
           </div>
           <Image
@@ -112,7 +112,7 @@ export default function Speaking() {
             title="Apadrinhe um Ciclo – Seja o Anjo de uma Estudante"
             description="Essa campanha permite que os doadores se tornem “padrinhos” de alunas que precisam de suporte menstrual. A ideia é que cada pessoa possa doar um valor mensal fixo (por exemplo, R$ 20,00, R$ 30,00 ou mais), garantindo que uma estudante tenha acesso a absorventes todos os meses."
             event="SysConf 2021"
-            cta="Watch video"
+            cta="Saiba mais"
           />
           </div>
           <Image
@@ -132,7 +132,7 @@ export default function Speaking() {
             title="Fluxo Solidário – Doe o Valor de um Café e Mude um Ciclo"
             description="Muitas vezes gastamos o valor de um café ou lanche sem perceber, mas esse pequeno valor pode fazer uma grande diferença na vida de uma menina que enfrenta a pobreza menstrual. A campanha Fluxo Solidário convida as pessoas a doarem o equivalente a um café (R$ 5,00, R$ 10,00 ou qualquer valor) para ajudar na compra de absorventes e kits de higiene para alunas em situação de vulnerabilidade."
             event="SysConf 2021"
-            cta="Watch video"
+            cta="Saiba mais"
           />
           </div>
           <Image
